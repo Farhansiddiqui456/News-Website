@@ -1,0 +1,76 @@
+@media screen and (max-width: 1130px) {
+  .container {
+    display: flex;
+  }
+
+  .cards-container {
+    justify-content: space-around;
+  }
+}
+
+/* @media screen and (max-width: 848px) {
+  /* .nav-item {
+    padding-right: 50px;
+  } */
+
+/* .main-nav {
+    justify-content: space-around;
+  } */
+
+/* #search-text,
+  #search-button {
+    display: none;
+  }
+
+  #s1 {
+    display: block;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 300px;
+  }
+
+  #search-text,
+  #search-button {
+    display: none;
+  }
+
+  #s1 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .card {
+    width: 250px;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  #s1 {
+    display: none;
+  }
+
+  .ri-menu-line {
+    display: block;
+    padding-right: 18px;
+  }
+
+  .company-logo {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 360px;
+  }
+
+  #news-title {
+    font-size: 1em;
+  }
+}
